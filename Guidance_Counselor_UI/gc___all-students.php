@@ -377,9 +377,10 @@ if (!isset($_SESSION['UserEmail'])) {
                             <td><?= $row['level'] ?></td>
                             <td>
                               <a href="gc___student_profile.php?id=<?= $row['user_id'] ?>">
-                                <button type="button" class="btn btn-primary">View</button>
-                            <td><button type="button" class="btn btn-primary">Edit</button></td>
-                            </a>
+                                <button type="button" class="btn btn-primary">View</button></a>
+                              <a>
+                               <td> <button type="button" class="btn btn-primary">Edit</button></a>
+                            </td>
                             </td>
                           </tr>
 
